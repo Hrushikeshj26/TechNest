@@ -27,7 +27,7 @@ Looking ahead, React seems poised to maintain its position as the leading fronte
   },
   {
     id: 2,
-    blogImg: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Artificial Intelligence",
     title: "GPT-4: What Developers Need to Know",
     content: `GPT-4 represents a significant leap forward in large language model capabilities. With improved reasoning and creativity, it's changing how we interact with AI.
@@ -53,7 +53,7 @@ As GPT-4 continues to evolve, developers should stay updated on best practices f
   },
   {
     id: 3,
-    blogImg: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1682145181120-73cfdfc8a36d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Cloud Computing",
     title: "Serverless Architecture: Pros and Cons",
     content: `Serverless computing has revolutionized how we deploy applications, but is it right for your project? Let's examine the key considerations.
@@ -80,7 +80,7 @@ As serverless technology matures, it's becoming a compelling option for many, bu
   },
   {
     id: 4,
-    blogImg: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1614064548016-0b5c13ca2c85?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Cybersecurity",
     title: "Zero Trust Security Model Explained",
     content: `The Zero Trust security model is reshaping enterprise security strategies with its "never trust, always verify" approach. Here's what you need to know.
@@ -107,7 +107,7 @@ As hybrid work becomes standard, Zero Trust provides a framework for securing di
   },
   {
     id: 5,
-    blogImg: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1733342554594-102b8e2d0623?q=80&w=1731&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Blockchain",
     title: "Understanding Smart Contract Development",
     content: `Smart contracts are self-executing agreements with terms written in code, revolutionizing how we think about digital transactions.
@@ -161,7 +161,7 @@ As Kubernetes continues to evolve, staying current with community best practices
   },
   {
     id: 7,
-    blogImg: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1683140911164-280450863114?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Programming Languages",
     title: "Why Rust is Gaining Popularity",
     content: `Rust has been steadily climbing programming language popularity charts, and for good reason. Let's examine its appeal.
@@ -188,7 +188,7 @@ As software reliability and security become increasingly important, Rust's uniqu
   },
   {
     id: 8,
-    blogImg: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=1621&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Data Science",
     title: "Machine Learning Model Deployment Strategies",
     content: `Deploying machine learning models into production requires careful consideration of various strategies and tradeoffs.
@@ -243,7 +243,7 @@ The choice ultimately depends on your specific project requirements, team skills
   },
   {
     id: 10,
-    blogImg: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Web Development",
     title: "The State of CSS in 2023",
     content: `CSS continues to evolve rapidly, with 2023 bringing powerful new features and widespread browser support. Here's what's noteworthy.
@@ -270,7 +270,7 @@ As CSS becomes more powerful, best practices around organization, performance, a
   },
   {
     id: 11,
-    blogImg: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1683121718643-fb18d2668d53?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Artificial Intelligence",
     title: "Ethical Considerations in AI Development",
     content: `As AI systems become more powerful and pervasive, ethical considerations must be central to development processes. Here are key issues to address.
