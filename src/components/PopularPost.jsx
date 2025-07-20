@@ -1,45 +1,58 @@
-import React from 'react'
-import {blogData} from '../assets/BlogData'
+import React, { useState, useEffect } from 'react';
+import { blogData } from '../assets/BlogData';
+import { Link } from 'react-router-dom';
 
 function PopularPost() {
+  const [popularPosts, setPopularPosts] = useState([]);
 
-  const popularPost = blogData.slice(0,6);
+  useEffect(() => {
+    const getRandomBlogs = () => {
+      const shuffled = [...blogData];
+    
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      
+      return shuffled.slice(0, 6);
+    };
+
+    setPopularPosts(getRandomBlogs());
+  }, []);
 
   return (
-    <div className='w-full h-full px-25 mt-12'>
-      <div className='flex w-full items-center justify-between py-12'>
-        <h1 className='text-4xl font-semibold '>Our Recent Post</h1>
-        <button className='bg-[#7C4EE4] text-white w-40 py-3 rounded-xl text-lg hover:bg-[#5E2DB8]'>View All</button>
+    <div className='w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12 mt-12 font-sans'>
+      <div className='flex flex-col md:flex-row w-full items-center justify-between py-12'>
+        <h1 className='text-3xl md:text-4xl font-semibold mb-4 md:mb-0'>Popular Blogs</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-        {popularPost.map((blog) => (
-          <div key={blog.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-            <img 
-              src={blog.blogImg} 
-              alt={blog.title}
-              className="w-full h-80 object-cover"
-            />
-            
-            <div className="p-6">
-              <span className="inline-block px-3 py-1 text-sm font-semibold text-[#7C4EE4] bg-[#F3F0FF] rounded-full mb-2">
-                {blog.category}
-              </span>
+        {popularPosts.map((blog) => (
+          <Link to={`/blog/${blog.id}`} key={blog.id} className="block">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full p-0 hover:bg-[#7C4EE4] group">
+              <img 
+                src={blog.blogImg} 
+                alt={blog.title}
+                className="w-full h-48 md:h-56 object-cover"
+              />
               
-              <h3 className="text-xl font-bold mb-2 line-clamp-2">{blog.title}</h3>
-              
-              <p className="text-gray-600 mb-4 line-clamp-3">
-                {blog.content}
-              </p>
-              
-              <button className="text-[#7C4EE4] font-medium hover:text-[#5a3bb3] transition-colors">
-                Read More →
-              </button>
+              <div className="p-6">
+                <span className="inline-block px-3 py-1 text-sm font-semibold text-[#7C4EE4] bg-[#F3F0FF] rounded-full mb-2 transition-colors">
+                  {blog.category}
+                </span>
+                <h3 className="text-xl font-bold mb-2 line-clamp-2 group-hover:text-white transition-colors">{blog.title}</h3>
+                <p className="text-gray-600 mb-4 line-clamp-3 group-hover:text-white transition-colors">
+                  {blog.content.split('\n')[0]}
+                </p>
+                <span className="text-[#7C4EE4] font-medium group-hover:text-white transition-colors">
+                  Read More →
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default PopularPost
+export default PopularPost;
