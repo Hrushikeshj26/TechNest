@@ -325,7 +325,7 @@ While multi-cloud offers significant advantages, it's not the right choice for e
   },
   {
     id: 13,
-    blogImg: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Cybersecurity",
     title: "Passwordless Authentication: The Future of Security",
     content: `Passwordless authentication is gaining momentum as a more secure and user-friendly alternative to traditional passwords. Here's how it works.
@@ -379,7 +379,7 @@ While the NFT space has seen speculative excesses, these practical applications 
   },
   {
     id: 15,
-    blogImg: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1647166545674-ce28ce93bdca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "DevOps",
     title: "GitOps: Principles and Implementation",
     content: `GitOps is an operational framework that applies DevOps best practices to infrastructure and application management. Here's how it works.
@@ -408,7 +408,7 @@ As organizations scale their cloud-native infrastructure, GitOps provides a stru
   },
   {
     id: 16,
-    blogImg: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Programming Languages",
     title: "The Resurgence of WebAssembly",
     content: `WebAssembly (Wasm) is evolving beyond its initial scope, enabling new use cases across computing. Here's what's driving its growth.
@@ -435,7 +435,7 @@ As Wasm matures beyond its initial browser focus, it's positioning itself as a u
   },
   {
     id: 17,
-    blogImg: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Data Science",
     title: "Feature Engineering Best Practices",
     content: `Feature engineering - transforming raw data into meaningful inputs for machine learning models - remains crucial despite advances in deep learning. Here are key practices.
@@ -463,7 +463,7 @@ While modern deep learning can automate some feature extraction, thoughtful feat
   },
   {
     id: 18,
-    blogImg: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&auto=format&fit=crop",
+    blogImg: "https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Mobile Development",
     title: "Progressive Web Apps in 2023",
     content: `Progressive Web Apps (PWAs) continue to evolve, offering app-like experiences through web technologies. Here's their current state.
@@ -490,7 +490,7 @@ While PWAs can't replace all native apps, they've become a compelling option for
   },
   {
     id: 19,
-    blogImg: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1678112183791-498b49242d1c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Web Development",
     title: "JavaScript Performance Optimization Techniques",
     content: `Modern JavaScript applications demand careful attention to performance. Here are proven optimization techniques for 2023.
@@ -518,7 +518,7 @@ As web applications grow in complexity, a combination of these techniques helps 
   },
   {
     id: 20,
-    blogImg: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&auto=format&fit=crop",
+    blogImg: "https://plus.unsplash.com/premium_photo-1676637656166-cb7b3a43b81a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Artificial Intelligence",
     title: "Computer Vision Applications in Industry",
     content: `Computer vision is transforming industries by enabling machines to interpret visual data. Here are impactful applications across sectors.
