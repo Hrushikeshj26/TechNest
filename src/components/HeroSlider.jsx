@@ -43,12 +43,12 @@ const HeroSlider = () => {
             <img className='absolute bottom-0 right-0 w-40 md:w-64 lg:w-[30rem] rotate-180 opacity-30 sm:opacity-50 lg:opacity-100' src={Maskg} alt='Decorative Mask' />
 
             {/* Content - made responsive */}
-            <div className='flex flex-col gap-4 md:gap-6 text-white z-10 max-w-xl mx-auto lg:mx-0 lg:mr-10 xl:mr-20'>
+            <div className='flex flex-col gap-4 md:gap-6 text-white z-10 max-w-xl mx-auto lg:mx-0 lg:mr-10 xl:mr-20 md:mt-0 mt-15'>
               <p className='text-base md:text-lg font-semibold'>Featured Post</p>
-              <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold leading-tight'>
+              <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold leading-tight'>
                 {slide.title}
               </h1>
-              <p className='text-sm md:text-base font-light'>{slide.description}</p>
+              <p className='text-sm hidden md:block md:text-base font-light'>{slide.description}</p>
               <button className='bg-white w-fit px-6 py-3 text-black rounded-lg hover:bg-[#ede6fc] transition-colors mx-auto lg:mx-0'>
                 Read More
               </button>
@@ -58,7 +58,7 @@ const HeroSlider = () => {
             <div className='w-full max-w-sm md:max-w-md lg:max-w-lg z-10 mt-8 lg:mt-0'>
               <img
                 src={slide.img}
-                className='w-full h-90 object-cover rounded-2xl shadow-lg mx-auto' // Changed fixed size to responsive
+                className='w-full h-70 md:h-90 object-cover rounded-2xl shadow-lg mx-auto' // Changed fixed size to responsive
                 alt='Hero Visual'
               />
             </div>

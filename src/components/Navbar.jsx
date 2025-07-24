@@ -114,7 +114,7 @@ function Navbar() {
           <input
             type="text"
             placeholder="Search blogs..."
-            className="py-2 px-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#7C4EE4] w-full sm:w-auto ml-2 transition-all duration-300"
+            className="py-2 px-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#7C4EE4] w-full sm:w-auto ml-2 transition-all duration-300 text-xs md:text-xl"
             value={searchQuery}
             onChange={handleSearchChange}
           /> 
@@ -142,7 +142,7 @@ function Navbar() {
 
         {/* Mobile Menu Toggle (Hamburger Icon) */}
         <FiMenu
-          className='text-3xl cursor-pointer text-gray-800 hover:text-[#5E2DB8] transition-colors ml-4'
+          className='md:text-3xl text-4xl font-extrabold cursor-pointer text-gray-800 hover:text-[#5E2DB8] transition-colors ml-4'
           onClick={toggleMobileMenu}
         />
       </div>
