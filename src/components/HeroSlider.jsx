@@ -48,7 +48,7 @@ const HeroSlider = () => {
               <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold leading-tight'>
                 {slide.title}
               </h1>
-              <p className='text-sm hidden md:block md:text-base font-light'>{slide.description}</p>
+              <p className='text-sm md:text-base font-light'>{slide.description}</p>
               <button className='bg-white w-fit px-6 py-3 text-black rounded-lg hover:bg-[#ede6fc] transition-colors mx-auto lg:mx-0'>
                 Read More
               </button>
