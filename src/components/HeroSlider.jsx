@@ -1,12 +1,12 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore, { Autoplay, Pagination } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/pagination'
-import HeroImg from '../assets/Hero.png'
-import Maskg from '../assets/Maskg.png'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Autoplay, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import HeroImg from '../assets/Hero.png'; // Assuming this path is correct in your project
+import Maskg from '../assets/Maskg.png'; // Assuming this path is correct in your project
 
-SwiperCore.use([Autoplay, Pagination])
+SwiperCore.use([Autoplay, Pagination]);
 
 const HeroSlider = () => {
   const slides = [
@@ -33,32 +33,32 @@ const HeroSlider = () => {
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       loop={true}
       pagination={{ clickable: true }}
-      className='w-full h-screen bg-[#7C4EE4]'
+      className='w-full h-screen bg-[#7C4EE4] font-sans' // Added font-sans for consistency
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
-          <div className='flex flex-col lg:flex-row p-8 md:px-20 h-full justify-between items-center relative overflow-hidden'>
-            {/* Mask decorations */}
-            <img className='absolute top-0 left-0 w-[30rem]' src={Maskg} alt='' />
-            <img className='absolute bottom-0 right-0 w-[30rem] rotate-180' src={Maskg} alt='' />
+          <div className='flex flex-col lg:flex-row p-8 md:px-12 lg:px-20 h-full justify-center items-center relative overflow-hidden text-center lg:text-left'>
+            {/* Mask decorations - made responsive */}
+            <img className='absolute top-0 left-0 w-40 md:w-64 lg:w-[30rem] opacity-30 sm:opacity-50 lg:opacity-100' src={Maskg} alt='Decorative Mask' />
+            <img className='absolute bottom-0 right-0 w-40 md:w-64 lg:w-[30rem] rotate-180 opacity-30 sm:opacity-50 lg:opacity-100' src={Maskg} alt='Decorative Mask' />
 
-            {/* Content */}
-            <div className='flex flex-col gap-6 md:gap-10 text-white z-10 max-w-xl'>
-              <p className='text-lg md:text-xl font-semibold'>Featured Post</p>
-              <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'>
+            {/* Content - made responsive */}
+            <div className='flex flex-col gap-4 md:gap-6 text-white z-10 max-w-xl mx-auto lg:mx-0 lg:mr-10 xl:mr-20'>
+              <p className='text-base md:text-lg font-semibold'>Featured Post</p>
+              <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold leading-tight'>
                 {slide.title}
               </h1>
-              <p className='text-base md:text-lg font-light'>{slide.description}</p>
-              <button className='bg-white w-fit px-6 py-3 text-black rounded-lg hover:bg-[#ede6fc]'>
+              <p className='text-sm md:text-base font-light'>{slide.description}</p>
+              <button className='bg-white w-fit px-6 py-3 text-black rounded-lg hover:bg-[#ede6fc] transition-colors mx-auto lg:mx-0'>
                 Read More
               </button>
             </div>
 
-            {/* Image */}
-            <div className='w-fit z-10 mt-10 lg:mt-0'>
+            {/* Image - made responsive */}
+            <div className='w-full max-w-sm md:max-w-md lg:max-w-lg z-10 mt-8 lg:mt-0'>
               <img
                 src={slide.img}
-                className='w-[500px] h-[500px] mx-auto lg:mx-0 rounded-2xl'
+                className='w-full h-90 object-cover rounded-2xl shadow-lg mx-auto' // Changed fixed size to responsive
                 alt='Hero Visual'
               />
             </div>
@@ -66,7 +66,7 @@ const HeroSlider = () => {
         </SwiperSlide>
       ))}
     </Swiper>
-  )
+  );
 }
 
-export default HeroSlider
+export default HeroSlider;
