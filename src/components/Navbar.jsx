@@ -142,7 +142,7 @@ function Navbar() {
 
         {/* Mobile Menu Toggle (Hamburger Icon) */}
         <FiMenu
-          className='md:text-3xl text-4xl font-extrabold cursor-pointer text-gray-800 hover:text-[#5E2DB8] transition-colors ml-4'
+          className='md:text-3xl text-4xl font-extrabold cursor-pointer text-gray-800 hover:text-[#5E2DB8] transition-colors'
           onClick={toggleMobileMenu}
         />
       </div>
