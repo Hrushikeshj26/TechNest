@@ -44,12 +44,12 @@ const HeroSlider = () => {
 
             {/* Content - made responsive */}
             <div className='flex flex-col gap-4 md:gap-6 text-white z-10 max-w-xl mx-auto lg:mx-0 lg:mr-10 xl:mr-20 md:mt-0 mt-15'>
-              <p className='text-base md:text-lg font-semibold'>Featured Post</p>
+              <p className='text-base md:text-lg font-semibold md:block hidden'>Featured Post</p>
               <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold leading-tight'>
                 {slide.title}
               </h1>
               <p className='text-sm md:text-base font-light'>{slide.description}</p>
-              <button className='bg-white w-fit px-6 py-3 text-black rounded-lg hover:bg-[#ede6fc] transition-colors mx-auto lg:mx-0'>
+              <button className='bg-white w-fit px-6 py-2 text-black rounded-lg hover:bg-[#ede6fc] transition-colors mx-auto lg:mx-0'>
                 Read More
               </button>
             </div>
