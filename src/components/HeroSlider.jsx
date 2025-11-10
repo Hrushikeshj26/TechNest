@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import HeroImg from '../assets/Hero.png'; // Assuming this path is correct in your project
-import Maskg from '../assets/Maskg.png'; // Assuming this path is correct in your project
+import HeroImg from '../assets/Hero.png';
+import Maskg from '../assets/Maskg.png'; 
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -33,7 +33,7 @@ const HeroSlider = () => {
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       loop={true}
       pagination={{ clickable: true }}
-      className='w-full h-screen bg-[#7C4EE4] font-sans' // Added font-sans for consistency
+      className='w-full h-screen bg-[#7C4EE4] font-sans'
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
